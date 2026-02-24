@@ -23,9 +23,7 @@ class KthLargest:
 
         return self.min_heap[0]
 
-
 outpust1 = []
-
 kthLargest = KthLargest(3, [4, 5, 8, 2])
 outpust1.append(None)
 
@@ -34,14 +32,10 @@ outpust1.append(kthLargest.add(5))
 outpust1.append(kthLargest.add(10))
 outpust1.append(kthLargest.add(9))
 outpust1.append(kthLargest.add(4))
-
 print(outpust1)
 
 
-
-
 outpust2 = []
-
 kthLargest2 = KthLargest(4, [7, 7, 7, 7, 8, 3])
 outpust2.append(None)
 
@@ -49,6 +43,5 @@ outpust2.append(kthLargest2.add(2))
 outpust2.append(kthLargest2.add(10))
 outpust2.append(kthLargest2.add(9))
 outpust2.append(kthLargest2.add(9))
-
 print(outpust2)
 
